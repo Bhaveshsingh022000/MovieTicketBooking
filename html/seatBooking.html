@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+      <script src="..\js\jquery-3.4.1.js"></script>
+  </head>
+  <style>
+
+      .book{
+          position: absolute;
+          top: 50px;
+          width: 80%;
+          height: 550px;
+          overflow: auto;
+          left: 140px;
+          background-color: rgba(0,0,0,0.5);
+          color: white;
+      }
+       th, td {
+  border: 1px solid white;
+           border-radius: 6px;
+  padding: 5px;
+font-size: 11px;
+}
+      td:hover{
+          background-color: blue;
+          cursor: pointer;
+          color: white;
+      }
+      td:target{
+          background-color: red;
+      }
+
+table {
+  border-spacing: 15px;
+}
+
+      .scren{
+          width: 700px;
+          height: 0px;
+          border-bottom: 100px solid grey;
+          border-left: 75px solid transparent;
+          border-right: 75px solid transparent;
+      }
+
+</style>
+    <script>
+        $(document).ready(function(){
+             $('td').click(function() {
+   $(this).css('backgroundColor', 'blue');
+                 $(this).css('color', 'white');
+});
+            $('td').dblclick(function() {
+   $(this).css('backgroundColor', '');
+                 $(this).css('color', '');
+});
+        });
+
+
+    </script>
+  <body style="background: #700811; background-repeat: no-repeat;
+               height: 641px;">
+      <div class="book">
+          <h5 style="margin-bottom: 10px; margin-left: 18px;">RECLINER - Rs : 350.00</h5>
+          <hr>
+          <table>
+
+              <tr><td style="border: 0px;">A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+                <td>01</td><td>02</td><td>03</td><td>04</td><td>05</td><td>06</td><td>07</td><td>08</td><td>09</td><td>10</td>
+                    <td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td>
+              </tr>
+          </table>
+
+          <h5 style="margin-bottom: 10px; margin-left: 18px;">GOLD - Rs : 200.00</h5>
+          <hr>
+          <table>
+              <tr><td style="border: 0px; font-size: 14px;">B&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+                  <td>01</td><td>02</td><td>03</td><td>04</td><td style="border: 0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>05</td><td>06</td><td>07</td><td>08</td><td>09</td><td>10</td>
+                  <td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td style="border: 0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>18</td><td>19</td><td>20</td><td>21</td>
+              </tr>
+              <tr><td style="border: 0px; font-size: 14px;">C&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+                  <td>01</td><td>02</td><td>03</td><td>04</td><td style="border: 0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>05</td><td>06</td><td>07</td><td>08</td><td>09</td><td>10</td>
+                  <td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td style="border: 0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>18</td><td>19</td><td>20</td><td>21</td>
+              </tr>
+              <tr><td style="border: 0px; font-size: 14px;">D&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+                  <td>01</td><td>02</td><td>03</td><td>04</td><td style="border: 0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>05</td><td>06</td><td>07</td><td>08</td><td>09</td><td>10</td>
+                  <td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td style="border: 0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>18</td><td>19</td><td>20</td><td>21</td>
+              </tr>
+              <tr><td style="border: 0px; font-size: 14px;">E&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+                  <td>01</td><td>02</td><td>03</td><td>04</td><td style="border: 0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>05</td><td>06</td><td>07</td><td>08</td><td>09</td><td>10</td>
+                  <td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td style="border: 0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>18</td><td>19</td><td>20</td><td>21</td>
+              </tr>
+              <tr><td style="border: 0px; font-size: 14px;">F&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+                  <td>01</td><td>02</td><td>03</td><td>04</td><td style="border: 0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>05</td><td>06</td><td>07</td><td>08</td><td>09</td><td>10</td>
+                  <td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td style="border: 0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>18</td><td>19</td><td>20</td><td>21</td>
+              </tr>
+              <tr><td style="border: 0px; font-size: 14px;">G&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+                  <td>01</td><td>02</td><td>03</td><td>04</td><td style="border: 0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>05</td><td>06</td><td>07</td><td>08</td><td>09</td><td>10</td>
+                  <td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td style="border: 0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>18</td><td>19</td><td>20</td><td>21</td>
+              </tr>
+              <tr><td style="border: 0px; font-size: 14px;">H&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+                  <td>01</td><td>02</td><td>03</td><td>04</td><td style="border: 0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>05</td><td>06</td><td>07</td><td>08</td><td>09</td><td>10</td>
+                  <td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td style="border: 0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>18</td><td>19</td><td>20</td><td>21</td>
+              </tr>
+
+
+          </table>
+          <h5 style="margin-bottom: 10px; margin-left: 18px;">SILVER - Rs : 150.00</h5>
+          <hr>
+          <table>
+              <tr><td style="border: 0px; font-size: 14px;">J&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+                  <td>01</td><td>02</td><td>03</td><td>04</td><td style="border: 0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>05</td><td>06</td><td>07</td><td>08</td><td>09</td><td>10</td>
+                  <td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td>
+              </tr>
+              <tr><td style="border: 0px; font-size: 14px;">K&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+                  <td>01</td><td>02</td><td>03</td><td>04</td><td style="border: 0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>05</td><td>06</td><td>07</td><td>08</td><td>09</td><td>10</td>
+                  <td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td>
+              </tr>
+              <tr><td style="border: 0px; font-size: 14px;">L&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+                  <td>01</td><td>02</td><td>03</td><td>04</td><td style="border: 0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>05</td><td>06</td><td>07</td><td>08</td><td>09</td><td>10</td>
+                  <td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td>
+              </tr>
+          </table>
+
+          <br><br><br><br>
+          <center><div class="scren"></div>
+              <h2>All eyes this way please!</h2>
+          </center>
+      </div>
+  </body>
+
+</html>
+<!--<td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td>
+        <td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td> -->
